@@ -20,3 +20,7 @@
   then how to easily use it anywhere -- super useful.
 
 - same as theme can be done for anything like fonts , spacing everything can be tweeked using span , very useful and looks very professional -> follows the DRY principal.
+
+## Added the screenshot here!
+
+![Hero-Section](./public/twL-Hero-Section.png)
