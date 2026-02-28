@@ -1,16 +1,22 @@
-# React + Vite
+# PROJECT ABOUT THEMES AND LAYOUT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Made a Hero Component
 
-Currently, two official plugins are available:
+- Learned how to use width and what width you need and height when designing Hero Section
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Learned how to clip text to background using a linear gradient in the bg.
+  (bg-clip-text =
+  👉 Background ko text ke shape ke hisaab se kaat do
+  👉 Background sirf letters ke andar dikhao)
 
-## React Compiler
+- used some subtle design under the button (learned about inset,bottom,left,rightand left and when to -bottom-px and -top-px and added gradient here with the div given some height).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- learned about themeing in general (eg.
 
-## Expanding the ESLint configuration
+  @theme {
+  --color-primary: oklch(85.2% 0.199 91.936);
+  })
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  then how to easily use it anywhere -- super useful.
+
+- same as theme can be done for anything like fonts , spacing everything can be tweeked using span , very useful and looks very professional -> follows the DRY principal.
